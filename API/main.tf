@@ -1,5 +1,5 @@
 resource "aws_api_gateway_rest_api" "DemoAPI"{
-    name            = "${var.project_name}-project-${environment}-API-Demo"
+    name            = "${var.project_name}-project-${var.environment}-API-Demo"
     description     = "API for demostration purposes - Luz Lara project"
 }
 
